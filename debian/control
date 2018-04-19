@@ -1,0 +1,12 @@
+Source: ros-kinetic-op3-camera-setting-tool
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libyaml-cpp-dev, ros-kinetic-catkin, ros-kinetic-dynamic-reconfigure, ros-kinetic-message-generation, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-std-msgs
+Homepage: http://wiki.ros.org/op3_camera_setting_tool
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-op3-camera-setting-tool
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libyaml-cpp-dev, ros-kinetic-dynamic-reconfigure, ros-kinetic-message-runtime, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-std-msgs
+Description: The op3_camera_setting_tool package
