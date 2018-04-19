@@ -1,0 +1,13 @@
+Source: ros-kinetic-op3-navigation
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/op3_navigation
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-op3-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-footstep-planner, ros-kinetic-map-server, ros-kinetic-octomap-server
+Description: This package is for generating footsteps of ROBOTIS-OP3.
+ It has several config files and launch files in order to use footstep planner package.
