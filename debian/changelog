@@ -1,0 +1,24 @@
+ros-kinetic-robotis-op3-tools (0.2.1-0xenial) xenial; urgency=high
+
+  * tested for dependencies of ncurses
+  * tested for dependencies of footstep_planner
+  * Contributors: Pyo
+
+ -- Pyo <pyo@robotis.com>  Wed, 18 Apr 2018 15:00:00 -0000
+
+ros-kinetic-robotis-op3-tools (0.2.0-0xenial) xenial; urgency=high
+
+  * added libncurses-dev
+  * added test code for web setting tool
+  * added configuration for direct control
+  * modified CMakeLists.txt and package.xml for dependencies
+  * modified the help description of op3_aciton_editor
+  * modified package.xml format to v2
+  * fixed minor bug and function about offset.yaml
+  * split repository from ROBOTIS-OP3
+  * refactoring to release
+  * Contributors: Kayman, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 29 Mar 2018 15:00:00 -0000
+
+
