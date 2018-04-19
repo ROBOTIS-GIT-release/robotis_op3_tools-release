@@ -1,0 +1,12 @@
+Source: ros-kinetic-robotis-op3-tools
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/robotis_op3_tools
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-robotis-op3-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-op3-action-editor, ros-kinetic-op3-camera-setting-tool, ros-kinetic-op3-gui-demo, ros-kinetic-op3-navigation, ros-kinetic-op3-offset-tuner-client, ros-kinetic-op3-offset-tuner-server, ros-kinetic-op3-web-setting-tool
+Description: ROS packages for the robotis_op3_tools (meta package)
