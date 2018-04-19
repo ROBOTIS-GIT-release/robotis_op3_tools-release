@@ -1,0 +1,18 @@
+ros-kinetic-op3-gui-demo (0.2.1-0xenial) xenial; urgency=high
+
+  * tested for dependencies of ncurses
+  * tested for dependencies of footstep_planner
+  * Contributors: Pyo
+
+ -- Pyo <pyo@robotis.com>  Wed, 18 Apr 2018 15:00:00 -0000
+
+ros-kinetic-op3-gui-demo (0.2.0-0xenial) xenial; urgency=high
+
+  * modified CMakeLists.txt and package.xml for dependencies
+  * modified package.xml format to v2
+  * split repository from ROBOTIS-OP3
+  * Contributors: Kayman, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 29 Mar 2018 15:00:00 -0000
+
+
