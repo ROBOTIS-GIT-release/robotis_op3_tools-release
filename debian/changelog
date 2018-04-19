@@ -1,0 +1,22 @@
+ros-kinetic-op3-offset-tuner-server (0.2.2-0jessie) jessie; urgency=high
+
+  * none
+
+ -- Pyo <pyo@robotis.com>  Thu, 19 Apr 2018 15:00:00 -0000
+
+ros-kinetic-op3-offset-tuner-server (0.2.1-0jessie) jessie; urgency=high
+
+  * none
+
+ -- Pyo <pyo@robotis.com>  Wed, 18 Apr 2018 15:00:00 -0000
+
+ros-kinetic-op3-offset-tuner-server (0.2.0-0jessie) jessie; urgency=high
+
+  * modified CMakeLists.txt and package.xml for dependencies
+  * modified package.xml format to v2
+  * split repository from ROBOTIS-OP3
+  * Contributors: Kayman, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 29 Mar 2018 15:00:00 -0000
+
+
